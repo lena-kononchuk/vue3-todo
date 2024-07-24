@@ -1,0 +1,31 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  background: #3179BA;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+}
+main{
+  max-width: 1000px;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+button, input, .main
+{
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+.list
+{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+}
